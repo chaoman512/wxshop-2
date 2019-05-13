@@ -1,0 +1,229 @@
+@charset  "utf-8";
+.productul{
+	width:100%;
+	position:relative;
+	top:60px;
+	left:0px;
+	overflow:hidden;
+	margin:0px auto 5px auto;
+	 ul{
+	    widht:100%;
+	    li{
+	      min-height:125px;
+	      overflow:hidden;
+	      background:#fff;
+	      box-shadow:0 0 5px #ccc;
+	      border:1px sold #f2f2f2;
+	      margin:10px;
+	      position:relative;
+	      a{
+
+	          .trangle-topleft{
+	            width:0px;
+	            height:0px;
+	            border:30px solid;
+	           	position:absolute;
+	            top:0px;
+	            left:0px;
+	          }
+	          .shuxing{
+	          display:block;
+	          position:absolute;
+	          left: 4px;
+			  top: 10px;
+			  transform: rotate(-45deg);
+	          color:#fff;
+	          font-size:14px;
+	          }
+	          .zhuanshu{
+	           border-color:#1aa818 transparent transparent  #1aa818;
+
+	          }
+	          .rexiao{
+	           border-color:#d50806 transparent transparent  #d50806 ;
+
+	          }
+	          .xiangou{
+
+	           border-color:#ff7301 transparent transparent  #ff7301 ;
+
+	          }
+	         width:100%;
+	         display:inline-block;
+	         overflow:hidden;
+	         .leftimages{
+	         width:100px;
+	         height:100px;
+	         margin-top:12px;
+	           img{
+	           width:100px;
+	           border:0px;
+	           
+	           	           }
+	           	   .canvas{
+	           	   background:#fff url(../images/loading.gif)center center no-repeat;
+	           background-size:15px auto;
+	           	   }
+	         }
+	         .productcontent{
+	            width:64%;
+	            margin-top:12px;
+	             .ptitle{
+	             font-size:16px;
+	             color:#4a534e;
+	             font-weight:bold;
+	             display:block;
+	             font-family: "Microsoft YaHei";
+	             }
+	             .pdes{
+	             font-size:13px;
+	             color:#999;
+	             margin-top:5px;
+	             display:block;
+	             }
+	             .pprice{
+	             font-size:14px;
+	             color:#4a4a4a;
+	             margin-top:6px;
+	             }
+	           
+	         }
+	      }
+	    }
+	 }
+
+}
+
+
+
+
+
+.recommendcontent{
+	width:100%;
+	overflow:hidden;
+	margin: 5rem auto 0.5rem auto;
+
+	ul{
+	width:100%;
+	}
+	.setyuanjiao{
+	border: 1px solid #f2f2f2;
+	box-shadow: 0 0 0.5rem #ccc;
+	margin: 1rem;
+	min-height: 12.5rem;
+	overflow: hidden;
+	background-color: #fff;
+	border-top-left-radius: 1rem;
+    -moz-border-radius-topright: 1rem;
+    border-top-right-radius: 1rem;
+    .leftimages{
+    float:left;
+    width: 30%;
+    height: 10rem;
+    margin-top: 0.5rem;
+    min-width: 10rem;
+    img{
+    width:100px;
+    border:0px;
+    }
+    }
+    .productcontent{
+     width: 58%;
+    margin-top: 1rem;
+      .ptitle{
+          font-size: 1.6rem;
+    color: #4a534e;
+    font-weight: bold;
+    display: block;
+    font-family: "Microsoft YaHei";
+      }
+      .ppdes{
+          font-size: 1.3rem;
+    color: #999;
+    margin-top: 0.5rem;
+    display: block;
+      }
+      .pprice{
+          margin-top: 1rem;
+    font-size: 1.4rem;
+    color: #4a4a4a;
+      }
+    }
+          
+	}
+
+	.buynumsli{
+	border-bottom-left-radius: 1rem;
+    -moz-border-radius-bottomright: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 1rem;
+    min-height: 5rem;
+    margin-top: -1rem;
+    .buylabel{
+    font-size: 1.4rem;
+    float: left;
+    margin: 1.5rem 0.2rem 0rem 1rem;
+    font-family: "Microsoft YaHei";
+    }
+    .buynuminput{
+    float: left;
+    overflow: hidden;
+    margin: 1.2rem 0 0 0.5rem;
+    }
+	}
+}
+
+
+.decorations{
+	    overflow: hidden;
+    background-color: #e7e7e7;
+    -webkit-box-shadow: 0 0 0.5rem #ccc;
+    -moz-box-shadow: 0 0 0.5rem #ccc;
+    box-shadow: 0 0 0.5rem #ccc;
+    border: 0.1rem solid #ccc;
+    margin: 1rem;
+    padding: 1.5rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    .dtitle{
+        color: #939494;
+    font-size: 1.4rem;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    p{
+       text-indent: 2em;
+    line-height: 2.3rem;
+    }
+    img{
+    width:308px;
+    }
+}
+
+
+.addcart{
+	    width: 100%;
+    left: 0px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 10000;
+    margin-left:1px;
+    display: block;
+    .addcartbtn{
+    width:99%;
+    background:#28c728;
+        height: 4rem;
+            line-height: 4rem;
+    border: 0.1rem solid #31b231;
+        border-radius: 0.5rem;
+    color: #fff;
+        font-size: 1.6rem;
+    cursor: pointer;
+    
+    }
+}

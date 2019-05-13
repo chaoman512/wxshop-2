@@ -1,0 +1,277 @@
+@charset "utf-8";
+.cart_content{
+	margin: 0 auto;
+	min-height: 300px;
+	position: relative;
+	width: 99%;
+	top: 50px;
+	left: 0;
+	.cartlist{
+		width:100%;
+		padding-bottom: 60px;
+		li{
+			margin: 1rem;
+			overflow: hidden;
+			background-color: #fff;
+			-webkit-box-shadow: 0 0 5px #ccc;
+			-moz-box-shadow: 0 0 5px #ccc;
+			box-shadow: 0 0 5px #ccc;
+			border: 1px solid #f2f2f2;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			min-height:75px;
+			a{
+				display: block;
+				overflow: hidden;
+				border-bottom: 1px dashed #e7e7e7;
+				span{
+					img{
+						width:50px;
+						float:left;
+						margin:5px;
+					}
+				}
+				.carttitle{
+					font-family: "Microsoft YaHei";
+					font-size: 1.4rem;
+					font-weight: bold;
+					display: block;
+
+				}
+			}
+
+         .productoperate{
+         	display: block;
+         	overflow: hidden;
+         	margin-bottom: 0.5rem;
+         	border-bottom: 1px dashed #e7e7e7;
+         	padding-bottom: 0.5rem;
+
+         	.buylabel{
+         		font-size: 1.4rem;
+         		float: left;
+         		margin: 1.5rem 1rem 0 2rem;
+         		font-family: "Microsoft YaHei";
+         	}
+         	.buynuminput{
+         		float: left;
+         		overflow: hidden;
+         		margin: 0.6rem 0 0 1.5rem;
+         	}
+         }
+
+         .productoperate{
+         	display: block;
+         	overflow: hidden;
+         	margin-bottom: 0.5rem;
+         	border-bottom: 1px dashed #e7e7e7;
+         	padding-bottom: 0.5rem;
+         	.buylabel{
+         		font-size: 1.4rem;
+         		float: left;
+         		margin: 0.8rem 1rem 0 2rem;
+         		font-family: "Microsoft YaHei";
+         	}
+         	.buynuminput{
+         		.delbtn{
+         			width: 20px;
+         			height: 24px;
+         			float: left;
+         			background: url(../images/del.png) center center no-repeat;
+         			margin-left: 30px;
+         			background-size: contain;
+         			cursor: pointer;
+         		}
+         	}
+         }
+
+			
+			
+		}
+	}
+}
+
+.onthebottom{
+	    width: 100%;
+    left: 0px;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    z-index: 10000;
+    margin: 0 auto;
+    display: block;
+    background: #f4f4f4;
+    border-top: 1px solid #B3B3B3;
+    .clearcart{
+    	width: 45px;
+    	float: left;
+    	background: url(../images/del.png) left center no-repeat;
+    	padding-left: 30px;
+    	font-size: 14px;
+    	color: #0e69b6;
+    	height: 30px;
+    	margin-top: 5px;
+    	padding-top: 10px;
+    	cursor: pointer;
+    	font-weight: bold;
+    	margin-left: 5px;
+    }
+    .totalprice{
+    	float: left;
+    	margin: 15px 0px 0px 5px;
+    	font-size: 1.4rem;
+
+    }
+    .jiesuanbtn{
+    	margin-top: 10px;
+    	margin-right: 5px;
+    	float: right;
+    	font-size: 14px;
+    	width: 80px;
+    	height: 30px;
+    	line-height: 30px;
+    	background-color: #28c728;
+    	text-align: center;
+    	border: 1px solid #31b231;
+    	border-radius: 5px;
+    	color: #fff;
+    	font-size: 1.6rem;
+    	cursor: pointer;
+    }
+}
+
+
+.order_content{
+    padding-bottom: 50px;
+    margin: 0 auto;
+    min-height: 300px;
+    position: relative;
+    width: 99%;
+     .add_operate{
+         font-size: 16px;
+         position: relative;
+         left: 0;
+         top: 55px;
+         .enter{
+         width: 100%;
+            background-color: #28c728;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#18b218), to(#28c728));
+            background-image: -webkit-linear-gradient(top, #18b218, #28c728);
+            background-image: linear-gradient(to bottom, #18b218, #28c728);
+            display: block;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid #31b231;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px auto;
+         }
+     }
+
+     .addresslist{
+         margin: 1rem;
+         position: relative;
+         top: 55px;
+         left: 0;
+         min-height: 75px;
+         overflow: hidden;
+         background-color: #fff;
+         -webkit-box-shadow: 0 0 5px #ccc;
+         -moz-box-shadow: 0 0 5px #ccc;
+         box-shadow: 0 0 5px #ccc;
+         border: 1px solid #f2f2f2;
+         -moz-border-radius: 10px;
+         border-radius: 10px;
+         .add_title{
+             line-height:18px;
+             color: #666;
+             font-size: 16px;
+             margin-top: 5px;
+             margin-left: 8px;
+         }
+
+         .address_item{
+            li{
+            line-height:25px;
+            }
+             border-bottom: 1px dashed #ddd;
+             font-size: 14px;
+             line-height: 20px;
+             margin: 10px 0px 10px 10px;
+             .radio{
+                 width:20px;
+                 float:left;
+             }
+             .name{
+                 text-indent: 20px;
+                 clear: both;
+             }
+         }
+
+
+     }
+     .voiceslist{
+            min-height: 75px;
+            overflow: hidden;
+            background-color: #fff;
+            -webkit-box-shadow: 0 0 5px #ccc;
+            -moz-box-shadow: 0 0 5px #ccc;
+            box-shadow: 0 0 5px #ccc;
+            border: 1px solid #f2f2f2;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            width: 93%;
+             margin: 70px auto 15px;
+              .add_title{
+                  color: #666;
+                    font-size: 16px;
+                    margin-top: 5px;
+                    margin-left: 8px;
+              }
+              .ifvoicenot{margin-right:10px}
+        }
+
+
+    .shopslist{
+        min-height: 75px;
+        overflow: hidden;
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 5px #ccc;
+        -moz-box-shadow: 0 0 5px #ccc;
+        box-shadow: 0 0 5px #ccc;
+        border: 1px solid #f2f2f2;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        width:93%;
+        margin:0 auto;
+        margin-bottom:15px;
+        textarea{
+                width: 90%;
+                margin-left: 20px;
+                border: 1px solid #ddd;
+            }
+          .add_title{
+                color: #666;
+                font-size: 16px;
+                margin-top: 5px;
+                margin-left: 8px;
+          }
+
+        .shoptitles {
+        background-color: #eeeeee;
+        color: #666;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        font-weight: bold;
+}
+     .shopproductlist{
+            height: 50px;
+            td{    text-align: center}
+
+    }
+}
+}
